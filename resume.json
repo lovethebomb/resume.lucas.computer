@@ -8,6 +8,9 @@
     "email": "hey+resume@lucas.computer",
     "website": "https://www.lucas.computer"
   },
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+  },
   "location": {
     "city": "Amsterdam",
     "country": "NL"
