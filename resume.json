@@ -9,7 +9,7 @@
     "website": "https://www.lucas.computer"
   },
   "meta": {
-    "format": "FRESH@^1.0.0-beta",
+    "format": "FRESH@^1.0.0-beta"
   },
   "location": {
     "city": "Amsterdam",
