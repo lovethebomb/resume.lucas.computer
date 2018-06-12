@@ -1,0 +1,17 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "wkhtmltopdf": "^0.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "hackmyresume build resume.json to dist/lucas-heymes-resume.all -t resume/theme"
+  },
+  "author": "lovethebomb",
+  "license": "MIT"
+}

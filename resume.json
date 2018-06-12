@@ -1,0 +1,217 @@
+{
+  "name": "Lucas Heymès",
+  "info": {
+    "label": "Front-End Developer & Systems afficionado",
+    "brief": "I build digital experiences using ES6/Vue/React, a11y, Rich Data, CI/CD, Docker, Laravel, Django. And a lot more."
+  },
+  "contact": {
+    "email": "hey+resume@lucas.computer",
+    "website": "https://www.lucas.computer"
+  },
+  "location": {
+    "city": "Amsterdam",
+    "country": "NL"
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Lead Developer",
+        "employer": "This Page Amsterdam",
+        "start": "2016-10-01",
+        "end": "2017-11-01",
+        "url": "https://thispage.amsterdam",
+        "keywords": [
+          "es6",
+          "vue.js",
+          "react",
+          "gsap",
+          "laravel",
+          "nodejs",
+          "jenkins",
+          "agency"
+        ],
+        "highlights": [
+          "Improved the CI workflow (Jenkins, git flow)",
+          "Infrastructure (pre-production, monitoring)",
+          "Updated base frontend company frameworks, React/Vue",
+          "Client projects",
+          "Improved team technical level"
+        ]
+      },
+      {
+        "position": "Creative Developer",
+        "employer": "This Page Amsterdam",
+        "start": "2015-06-01",
+        "end": "2016-10-01",
+        "url": "https://thispage.amsterdam",
+        "keywords": [
+          "es6",
+          "vue.js",
+          "gsap",
+          "laravel",
+          "jenkins",
+          "agency"
+        ],
+        "highlights": [
+          "Established the CI workflow (Jenkins, git flow)",
+          "Infrastructure (pre-production, monitoring)",
+          "Created base frontend company frameworks, rolled to ES6, linter usage",
+          "Client projects"
+        ]
+      },
+      {
+        "position": "Front-End Developer",
+        "employer": "Zazzy",
+        "start": "2014-01-01",
+        "end": "2015-05-01",
+        "url": "https://zazzy.io",
+        "keywords": [
+          "es6",
+          "backbone.js",
+          "django",
+          "svg",
+          "blender",
+          "startup"
+        ],
+        "highlights": [
+          "Wrote a lightweight Backbone.js based framework, with SVG editing capabilities"
+        ]
+      },
+      {
+        "position": "Front-End Developer",
+        "employer": "Ulule",
+        "start": "2013-02-01",
+        "end": "2013-10-01",
+        "url": "https://www.ulule.fr",
+        "keywords": [
+          "es5",
+          "d3.js",
+          "svg",
+          "sass",
+          "html5",
+          "aria"
+        ],
+        "highlights": [
+          "Created a styleguide based on SMACSS and BEM architecture",
+          "Created a simple d3.js based statistics page",
+          "Implemented new on-boarding flow"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "degree",
+    "history": [
+      {
+        "institution": "Gobelins",
+        "start": "2012-01-01",
+        "end": "2013-01-01",
+        "summary": "",
+        "area": "Mobile & Web Development",
+        "studyType": "Bachelor",
+        "location": "Paris, FR",
+        "keywords": [
+          "objective-c",
+          "es5",
+          "backbone.js",
+          "django",
+          "symfony",
+          "dataviz",
+          "rest",
+          "ui/ux",
+          "apprenticeship"
+        ]
+      }
+    ]
+  },
+  "service": {
+    "history": [
+      {
+        "type": "volunteer",
+        "position": "Rover",
+        "organization": "Scoutism",
+        "start": "2012-08-01",
+        "end": "2012-09-01",
+        "summary": "Went to Madagascar during August 2012 to work with young malagasi at Tana and its vicinity. Participated to a school construction & renovation. Gave French lessons and school furnitures."
+      }
+    ]
+  },
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/lovethebomb",
+      "user": "lovethebomb"
+    },
+    {
+      "label": "Twitter",
+      "network": "Twitter",
+      "url": "https://twitter.com/ltb_lucas",
+      "user": "ltb_lucas"
+    },
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "url": "https://www.linkedin.com/in/lucasheymes",
+      "user": "lucasheymes"
+    },
+    {
+      "label": "Keybase",
+      "network": "Keybase",
+      "url": "https://keybase.io/lovethebomb",
+      "user": "lovethebomb"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "js",
+        "node.js",
+        "jest",
+        "typescript",
+        "golang",
+        "django",
+        "python",
+        "laravel",
+        "php",
+        "rest",
+        "PWA",
+        "a11y",
+        "rich data",
+        "semantics"
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "keywords": [
+        "linux",
+        "docker",
+        "ci/cd",
+        "ansible",
+        "terraform",
+        "saltstack",
+        "kubernetes",
+        "aws",
+        "gce",
+        "micro-services",
+        "self-hosting",
+        "networks"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native language"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Basics"
+    }
+  ]
+}

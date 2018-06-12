@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>{{r.name}}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    {{{ styleSheet "html.css" }}}
+  </head>
+  <body>
+  
+  <div id="resume">
+    <div class="alert no-print">
+      <p>This Résumé has been generated from a <a href="/resume/lucas-heymes-resume.json">JSON</a> file with <a href="https://github.com/hacksalot/HackMyResume">HackMyResume</a>. Complete CV available on <a href="https://www.linkedin.com/in/lucasheymes">LinkedIn</a>.</p>
+    </div>
+    {{> info }}
+    {{> employment }}
+    {{> volunteer }}
+    {{> education }}
+    {{> awards }}
+    {{> languages }}
+    {{> interests }}
+  </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "title": "resume.lucas.computer",
+  "description": "Merge of basis and json resume stackoverflow",
+  "author": "lovethebomb",
+  "engine": "handlebars",
+  "message": "",
+  "helpers": ["helpers/*.js"]
+}

@@ -1,0 +1,72 @@
+{{ r.name }}
+============
+{{{ r.info.label }}}
+{{ r.location.city}}, {{ r.location.country}}
+
+{{#has 'contact.email' }}Email: {{{ r.contact.email }}}{{/has}}
+{{#has 'contact.website' }}Web: [{{{ r.contact.website }}}]({{{ r.contact.website }}}){{/has}}
+
+{{#each r.social}}
+{{network}}: [{{ user }}]({{url}})
+{{/each}}
+
+{{> section/info }}
+
+{{#section "employment"}}
+## {{{sectionTitle "EMPLOYMENT"}}}
+
+{{#each r.employment.history }}
+{{#if url}}
+### *{{{ position }}}*, [{{{ employer }}}]({{{ url }}}) ({{dateRange .}})
+{{else}}
+### *{{{ position }}}*, {{{ employer }}} ({{dateRange .}})
+{{/if}}
+
+{{#if keywords}}
+Keywords: {{#each keywords}}{{{ this }}}, {{/each}}
+{{/if}}
+
+{{{ summary }}}
+{{#if highlights}}
+{{#each highlights}}
+  - {{{ this }}}
+{{/each}}
+{{/if}}
+
+{{/each}}
+{{/section}}
+
+{{#section "education"}}
+## {{{sectionTitle "EDUCATION"}}}
+
+{{#each r.education.history}}
+### {{{ institution }}} ({{dateRange .}})
+{{#if summary }}
+{{{ summary }}}
+{{/if}}
+{{#if courses}}
+{{#each courses}}
+- {{{ this }}}
+{{/each}}
+{{/if}}
+
+{{#if keywords}}
+Keywords: {{#each keywords}}{{{ this }}}, {{/each}}
+{{/if}}
+
+{{/each}}
+{{/section}}
+
+{{> section/service }}
+
+{{#section "languages"}}
+## {{{sectionTitle "LANGUAGES"}}}
+
+{{#each r.languages }}
+{{{ language }}}, {{{ fluency }}}
+
+{{/each}}
+{{/section}}
+
+
+{{> section/interests }}

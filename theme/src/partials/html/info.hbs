@@ -1,0 +1,49 @@
+	<header id="header" class="clear">
+		<div>
+			<h1 class="name">{{r.name}}</h1>
+			<h2 class="label">{{{ r.info.label }}}</h2>
+		</div>
+		
+		<span class="location">
+			<span class="city">{{r.location.city}},</span> 
+			<span class="countryCode">{{r.location.country}}</span> 
+		</span>
+		
+		<div id="contact">
+			<div class="website">
+				<span class="fa fa-external-link"></span>
+				<a target="_blank" target="_blank" href="{{website}}">{{{ r.contact.website }}}</a>
+			</div>
+			<div class="email">
+				<span class="fa fa-envelope-o"></span>
+				<a href="mailto:{{r.contact.email}}">{{r.contact.email}}</a>
+			</div>
+		</div>
+
+		<div id="profiles">
+			{{#each r.social}}
+			<div class="item">
+				{{#if network}}
+				<div class="username">
+					<span class="fa fa-{{spaceToDash network}} {{spaceToDash network}} social"></span>
+					{{#if url}}
+					<span class="url">
+						<a target="_blank" href="{{url}}">{{user}}</a>
+					</span> 
+					{{else}}
+					<span>{{user}}</span>
+					{{/if}}
+				</div>
+				{{/if}}
+			</div>
+			{{/each}}
+		</div>
+	</header>
+
+	{{#if r.info.brief}}
+	<section class="section main-summary">
+		<section>
+			<div>{{paragraphSplit r.info.brief}}</div>
+		</section>
+	</section>
+	{{/if}}
