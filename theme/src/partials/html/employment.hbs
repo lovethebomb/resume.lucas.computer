@@ -14,7 +14,7 @@
 				<div class="company">{{employer}}</div>
         {{#if url}}
         <span class="website">
-          <a target="_blank" href="{{url}}">{{url}}</a>
+          <a target="_blank" href="{{url}}">{{withoutScheme url}}</a>
         </span>
         {{/if}}
 				

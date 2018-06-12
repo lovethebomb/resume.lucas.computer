@@ -618,7 +618,8 @@ ul.courses li:hover {
 }
 
 #interests .item {
-  width: 30em;
+  width: 50%;
+  box-sizing: border-box;
 }
 
 .header.flex {
