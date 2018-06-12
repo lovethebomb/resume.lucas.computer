@@ -24,14 +24,14 @@
         "end": "2017-11-01",
         "url": "https://thispage.amsterdam",
         "keywords": [
-          "es6",
-          "vue.js",
-          "react",
-          "gsap",
-          "laravel",
-          "nodejs",
-          "jenkins",
-          "agency"
+          "ES6",
+          "Vue.js",
+          "React",
+          "GSAP",
+          "Laravel",
+          "Node.js",
+          "Jenkins",
+          "Agency"
         ],
         "highlights": [
           "Improved the CI workflow (Jenkins, git flow)",
@@ -48,12 +48,12 @@
         "end": "2016-10-01",
         "url": "https://thispage.amsterdam",
         "keywords": [
-          "es6",
-          "vue.js",
-          "gsap",
-          "laravel",
-          "jenkins",
-          "agency"
+          "ES6",
+          "Vue.js",
+          "GSAP",
+          "Laravel",
+          "Jenkins",
+          "Agency"
         ],
         "highlights": [
           "Established the CI workflow (Jenkins, git flow)",
@@ -69,12 +69,12 @@
         "end": "2015-05-01",
         "url": "https://zazzy.io",
         "keywords": [
-          "es6",
-          "backbone.js",
-          "django",
+          "ES6",
+          "Backbone.js",
+          "Django",
           "svg",
-          "blender",
-          "startup"
+          "Blender",
+          "Startup"
         ],
         "highlights": [
           "Wrote a lightweight Backbone.js based framework, with SVG editing capabilities"
@@ -85,9 +85,9 @@
         "employer": "Ulule",
         "start": "2013-02-01",
         "end": "2013-10-01",
-        "url": "https://www.ulule.fr",
+        "url": "https://ulule.com",
         "keywords": [
-          "es5",
+          "ES5",
           "d3.js",
           "svg",
           "sass",
@@ -114,14 +114,14 @@
         "studyType": "Bachelor",
         "location": "Paris, FR",
         "keywords": [
-          "objective-c",
-          "es5",
-          "backbone.js",
-          "django",
-          "symfony",
-          "dataviz",
-          "rest",
-          "ui/ux",
+          "Objective-c",
+          "ES5",
+          "Backbone.js",
+          "Django",
+          "Symfony",
+          "Dataviz",
+          "REST",
+          "UI/UX",
           "apprenticeship"
         ]
       }
@@ -170,36 +170,36 @@
       "name": "Web Development",
       "keywords": [
         "js",
-        "node.js",
+        "Node.js",
         "jest",
-        "typescript",
+        "TypeScript",
         "golang",
-        "django",
-        "python",
-        "laravel",
-        "php",
-        "rest",
+        "Django",
+        "Python",
+        "Laravel",
+        "PHP",
+        "REST",
         "PWA",
         "a11y",
-        "rich data",
-        "semantics"
+        "Dich data",
+        "Semantics"
       ]
     },
     {
       "name": "Infrastructure",
       "keywords": [
-        "linux",
-        "docker",
-        "ci/cd",
-        "ansible",
-        "terraform",
-        "saltstack",
-        "kubernetes",
-        "aws",
-        "gce",
-        "micro-services",
-        "self-hosting",
-        "networks"
+        "Linux",
+        "Docker",
+        "CI/CD",
+        "Ansible",
+        "Terraform",
+        "SaltStack",
+        "Kubernetes",
+        "AWS",
+        "GCE",
+        "Micro-services",
+        "Self-hosting",
+        "Networks"
       ]
     }
   ],
